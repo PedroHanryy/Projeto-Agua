@@ -1,196 +1,196 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 .image {
-  justify-content: center;
-  align-items: center;
-  display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .login {
-  background-color: rgb(199, 199, 199, 0.6);
-  position: absolute;
-  display: flex;
-  left: 50%;
-  transform: translate(-50%);
-  padding: 40px;
-  border-radius: 15px;
+    background-color: rgb(199, 199, 199, 0.6);
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 40px;
+    border-radius: 15px;
 }
 
 .title {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 input {
-  padding: 20px;
-  border: 0;
-  border-radius: 10px ;
-  outline: none;
-  font-size: 15px;
-  margin-bottom: 10px;
-  display: flex;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px ;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 input:hover {
-  box-shadow: 0 0 10px 2px #bdbdbd
+    box-shadow: 0 0 10px 2px #bdbdbd
 }
 
 button {
-  display: block;
-  background: linear-gradient(to right, #021750, #3a59ad);
-  width: 100%;
-  border: 0;
-  border-radius: 8px;
-  padding: 15px 30px;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  box-shadow: 0 0 10px 2px #537ae4;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
-  margin: 12px 0px;
+    display: block;
+    background: linear-gradient(to right, #021750, #3a59ad);
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 0 10px 2px #537ae4;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    margin: 12px 0px;
 }
 
 button:hover {
-  box-shadow: 0 0 15px 4px #537ae4;
-  transform: scale(1.05);
+    box-shadow: 0 0 15px 4px #537ae4;
+    transform: scale(1.05);
 }
 
 .registration {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  padding: 15px 30px;
-  background: linear-gradient(to right, #021750, #3a59ad);
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 8px;
-  border: none;
-  box-shadow: 0 0 10px 2px #537ae4;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #021750, #3a59ad);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 10px 2px #537ae4;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .registration:hover {
-  box-shadow: 0 0 15px 4px #537ae4;
-  transform: scale(1.05);
+    box-shadow: 0 0 15px 4px #537ae4;
+    transform: scale(1.05);
 }
 
 .reset {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #555;
-  margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    margin: 20px 0px 0px 0px;
 }
 
 .logo-fundo {
-  background: linear-gradient(to right, #021750, #3a59ad);
+    background: linear-gradient(to right, #021750, #3a59ad);
 }
 
 .formulario {
-  max-width: 500px;
-  margin: 50px auto;
-  background: white;
-  padding: 50px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 h2 {
-  text-align: center;
-  color: #021750;
-  margin-bottom: 20px;
+    text-align: center;
+    color: #021750;
+    margin-bottom: 20px;
 }
 
 .entrada {
-  outline: none;
-  font-size: 15px;
+    outline: none;
+    font-size: 15px;
 }
 
 .etiqueta {
-  display: block;
-  margin-bottom: 8px;
-  color: #021750;
-  font-weight: bold;
-  outline: none;
+    display: block;
+    margin-bottom: 8px;
+    color: #021750;
+    font-weight: bold;
+    outline: none;
 }
 
 #assunto {
-  outline: none;
-  cursor: pointer;
+    outline: none;
+    cursor: pointer;
 }
 
 span {
-  color: #555;
-  font-size: 15px;
+    color: #555;
+    font-size: 15px;
 }
 
 #obs {
-  margin: 20px 0px;
+    margin: 20px 0px;
 }
 
 .entrada, textarea, select {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #b2c2df;
-  border-radius: 9px;
-  font-size: 16px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b2c2df;
+    border-radius: 9px;
+    font-size: 16px;
 
 }
 
 .numero {
-  width: 100px;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #b2c2df;
-  border-radius: 9px;
-  font-size: 16px;
+    width: 100px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b2c2df;
+    border-radius: 9px;
+    font-size: 16px;
 }
 
 textarea {
-  outline: none;
-  font-family: Arial, sans-serif;
+    outline: none;
+    font-family: Arial, sans-serif;
 }
 
 .exit {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  padding: 15px 30px;
-  background: linear-gradient(to right, #021750, #3a59ad);
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 8px;
-  border: none;
-  box-shadow: 0 0 10px 2px #537ae4;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #021750, #3a59ad);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 10px 2px #537ae4;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .exit:hover {
-  box-shadow: 0 0 15px 4px #537ae4;
-  transform: scale(1.05);
+    box-shadow: 0 0 15px 4px #537ae4;
+    transform: scale(1.05);
 }
 
 
 .footer {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-  color: #555;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
 }
