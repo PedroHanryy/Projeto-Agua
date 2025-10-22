@@ -190,3 +190,17 @@ textarea {
     font-size: 14px;
     color: #555;
 }
+
+.logo-produtos {
+    background-image: url('fundo.png');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+select {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
