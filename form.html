@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    
+<body class="logo-fundo">
+
+  <div class="formulario">
+
+    <div class="logo">
+    <img src="logo.png" alt="logo" width="200">
+    </div>
+
+    <h2>Formulário de Cadastro - Àgua da Fonte.</h2>
+
+    <form>
+      <label class="etiqueta" for="nome">Nome Completo do Proprietário</label>
+      <input class="entrada" type="text" placeholder="Digite seu Nome" name="nome" required />
+      
+      <label class="etiqueta" for="nome">Nome da Empresa</label>
+      <input class="entrada" type="text" placeholder="Digite o nome da sua empresa" name="nome" required />
+      
+      
+      <label class="etiqueta" for="email">E-mail</label>
+      <input class="entrada" type="email" placeholder="aguadafonte@exemplo.com" name="email" required />
+
+      <label class="etiqueta" for="password">Senha</label>
+      <input class="entrada" type="password" placeholder="Deve conter no mínimo 6 caracteres" name="senha" required />
+
+      <label class="etiqueta" for="password">Confirme sua Senha</label>
+      <input class="entrada" type="password" placeholder="Digite novamente sua senha de login" name="senha" required />
+
+      <label class="etiqueta" for="telefone">Telefone de Contato</label>
+      <input class="entrada" type="tel" placeholder="(99) 9 9999-9999" name="telefone" />
+
+      <label class="etiqueta" for="endereco">Endereço</label>
+      <input class="entrada" type="address" placeholder="Rua Agua da Fonte" name="endereco" required />
+
+      <label class="etiqueta" for="endereco">Número</label>
+      <input class="numero" type="address" placeholder="Nº 99" name="endereco" required />
+
+
+      <button type="submit"> <b>Cadastra-se</b></button>
+      
+      <a href="index.html" class="exit">Sair</a>
+
+    </form>
+
+    <div class="footer">
+
+      &copy; 2025 Água da Fonte.
+
+    </div>
+  </div>
 </body>
 </html>
