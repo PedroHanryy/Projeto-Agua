@@ -139,10 +139,6 @@ span {
     font-size: 15px;
 }
 
-#obs {
-    margin: 20px 0px;
-}
-
 .entrada, textarea, select {
     width: 100%;
     padding: 12px;
